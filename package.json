@@ -1,0 +1,47 @@
+{
+  "name": "entrepreneur",
+  "description": "JavaScript scaffolding tool on top of JSMake",
+  "keywords": [
+    "scaffolding",
+    "scaffold"
+  ],
+  "version": "0.0.2",
+  "homepage": "",
+  "author": "Eser Ozvataf <eser@ozvataf.com>",
+  "contributors": [
+    {
+      "name": "Eser Ozvataf",
+      "email": "eser@ozvataf.com",
+      "url": "http://eser.ozvataf.com/"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eserozvataf/entrepreneur.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eserozvataf/entrepreneur/issues",
+    "email": "eser@ozvataf.com"
+  },
+  "license": "Apache-2.0",
+  "main": "./lib/index.js",
+  "engines": {
+    "node": ">=4.2.0"
+  },
+  "scripts": {},
+  "directories": {
+    "lib": "./lib"
+  },
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "bin": {},
+  "dependencies": {
+    "colors": "^1.1.2",
+    "debug": "^2.2.0",
+    "jsmake": "^0.0.2",
+    "maester": "^0.0.2"
+  },
+  "devDependencies": {}
+}

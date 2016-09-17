@@ -1,12 +1,8 @@
-const EventEmitter = require('events'),
-    JsMake = require('jsmake'),
-    Maester = require('maester');
+import maester from 'maester';
+import jsmake from 'jsmake';
 
-class Entrepreneur extends EventEmitter {
-    constructor() {
-        super();
-    }
-}
+jsmake.task('sayHello', function (argv) {
+    console.log('hello ' + argv.name);
+});
 
-const instance = new Entrepreneur();
-module.exports = instance;
+jsmake.exec('sayHello --name=eser');

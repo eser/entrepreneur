@@ -5,7 +5,7 @@
     "scaffolding",
     "scaffold"
   ],
-  "version": "0.0.2",
+  "version": "0.0.5",
   "homepage": "",
   "author": "Eser Ozvataf <eser@ozvataf.com>",
   "contributors": [
@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/eserozvataf/entrepreneur.git"
+    "url": "git+https://github.com/eserozvataf/entrepreneur.git"
   },
   "bugs": {
     "url": "https://github.com/eserozvataf/entrepreneur/issues",
@@ -38,10 +38,8 @@
   ],
   "bin": {},
   "dependencies": {
-    "colors": "^1.1.2",
-    "debug": "^2.2.0",
-    "jsmake": "^0.0.2",
-    "maester": "^0.0.2"
+    "jsmake": "^0.1.18",
+    "maester": "^0.0.12"
   },
   "devDependencies": {}
 }

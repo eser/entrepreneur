@@ -18,7 +18,7 @@ Execute `npm install entrepreneur --save-dev` to install entrepreneur and its de
 
 ## Todo List
 
-See [GitHub Projects](https://github.com/eserozvataf/jsmake/projects) for more.
+See [GitHub Projects](https://github.com/eserozvataf/entrepreneur/projects) for more.
 
 
 ## Requirements

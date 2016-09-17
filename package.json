@@ -5,7 +5,7 @@
     "scaffolding",
     "scaffold"
   ],
-  "version": "0.0.5",
+  "version": "0.0.6",
   "homepage": "",
   "author": "Eser Ozvataf <eser@ozvataf.com>",
   "contributors": [
@@ -38,8 +38,8 @@
   ],
   "bin": {},
   "dependencies": {
-    "jsmake": "^0.1.18",
-    "maester": "^0.0.12"
+    "jsmake": "^0.1.19",
+    "maester": "^0.0.13"
   },
   "devDependencies": {}
 }

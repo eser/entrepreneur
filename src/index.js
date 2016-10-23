@@ -1,8 +1,14 @@
 import maester from 'maester';
 import jsmake from 'jsmake';
 
-jsmake.task('sayHello', function (argv) {
-    console.log('hello ' + argv.name);
-});
+class Entrepreneur {
 
-jsmake.exec('sayHello --name=eser');
+}
+
+const instance = new Entrepreneur();
+
+if (global.entp === undefined) {
+    global.entp = instance;
+}
+
+module.exports = instance;

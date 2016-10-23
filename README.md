@@ -13,7 +13,7 @@ This project is designed to function as a scaffolding tool especially for node.j
 
 ## Quick start
 
-Execute `npm install entrepreneur --save-dev` to install entrepreneur and its dependencies into your project directory.
+Execute `npm install entrepreneur -g` to install entrepreneur on your system.
 
 
 ## Todo List

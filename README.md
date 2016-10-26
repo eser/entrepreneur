@@ -13,7 +13,17 @@ This project is designed to function as a scaffolding tool especially for node.j
 
 ## Quick start
 
-Execute `npm install entrepreneur -g` to install entrepreneur on your system.
+Install [jsmake](https://github.com/eserozvataf/jsmake) first. If it's already installed on your system, you can skip this part.
+
+```bash
+$ npm install jsmake -g
+```
+
+Install entrepreneur as a jsmake plugin:
+
+```bash
+$ jsmake plugins add entrepreneur
+```
 
 
 ## Todo List

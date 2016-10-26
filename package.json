@@ -2,10 +2,11 @@
   "name": "entrepreneur",
   "description": "JavaScript scaffolding tool on top of JSMake",
   "keywords": [
+    "jsmake",
     "scaffolding",
     "scaffold"
   ],
-  "version": "0.0.7",
+  "version": "0.0.8",
   "homepage": "",
   "author": "Eser Ozvataf <eser@ozvataf.com>",
   "contributors": [
@@ -26,6 +27,7 @@
   "license": "Apache-2.0",
   "preferGlobal": true,
   "main": "./lib/index.js",
+  "main:jsmake": "./lib/jsmake.js",
   "engines": {
     "node": ">=4.2.0"
   },
@@ -34,17 +36,12 @@
     "lib": "./lib"
   },
   "files": [
-    "lib",
-    "bin"
+    "lib"
   ],
-  "bin": {
-    "entp": "./bin/entp"
-  },
   "dependencies": {
     "colors": "^1.1.2",
-    "inquirer": "^1.1.3",
-    "jsmake": "^0.2.0",
-    "maester": "^0.0.13",
+    "consultant": "^0.1.18",
+    "maester": "^0.0.18",
     "update-notifier": "^1.0.2"
   },
   "devDependencies": {}

@@ -6,6 +6,12 @@
 [![license][license-image]][license-url]
 
 
+## Update (July 2022)
+
+DEPRECATED in favor of [hex](https://github.com/eserozvataf/hex).
+See https://github.com/eserozvataf/hex for details.
+
+
 ## What is the entrepreneur?
 
 This project is designed to function as a scaffolding tool especially for node.js applications.
